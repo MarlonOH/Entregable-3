@@ -1,0 +1,17 @@
+<h3> Hola mi nombre es, @nombre. Quiero contactarme con ustedes por lo siguiente: <br> </h3>
+    <p>@mensaje</p>
+
+<h4>Pueden comunicarse conmigo en: <br></h4>
+<h4>Correo: @correo <br></h4>
+<h4>Teléfono movil: @telefono </h4>
+
+@code {
+    [Parameter]
+    public string nombre {get; set;}
+     [Parameter]
+    public string correo {get; set;}
+     [Parameter]
+    public string telefono {get; set;}
+     [Parameter]
+    public string mensaje {get; set;}
+}
